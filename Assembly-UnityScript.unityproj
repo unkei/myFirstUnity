@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D6BEB463-C31B-0F43-2ED0-21B7C2E82041}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Additional_library_docs\renderscript\jquery.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Getting_Started\html\dynsections.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Getting_Started\html\jquery.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Programmers_Guide\html\dynsections.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Programmers_Guide\html\jquery.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Programmers_Guide\html\navtree.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Programmers_Guide\html\navtreeindex0.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\docs\Programmers_Guide\html\resize.js" />
+     <Compile Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\common\scan-build\sorttable.js" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-media\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\gles3jni\AndroidManifest-11.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\help.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\jni\license-LGPL.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\two-libs\tests\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\NEWS.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\res\layout\widgets.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\HISTORY.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips64\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips64\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86_64\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\res\layout\main.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\CREDITS.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\jni\README.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\Unicode\Collate\allkeys.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-neon\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\extend.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-activity\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm64\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\two-libs\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86_64\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-audio\res\layout\main.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\unicore\NamedSequences.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-activity\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-audio\assets\README.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-codec\res\layout\main.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-plasma\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\lib2to3\PatternGrammar.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-codec\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm64\libc.so.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\res\layout\widgets.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\README.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\HelloComputeNDK\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\res\values-v11\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-media\README.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips64\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-gl2\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\res\values-v14\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-media\res\layout\main.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-audio\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\two-libs\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\bitmap-plasma\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\res\values-v14\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\unicore\SpecialCasing.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\LICENSE.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm64\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-jni\tests\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\sources\cxx-stl\llvm-libc++\export_symbols.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\res\values\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\jni\license.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips64\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-gl2\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\renderscript\prebuilt\darwin-x86_64\lib\clang\3.5\include\CMakeLists.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\gles3jni\AndroidManifest-18.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-jni\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\bitmap-plasma\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86\libgcc.a.functions.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-media\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\san-angeles\jni\license-BSD.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\idlelib\TODO.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\tests\build\awk-trailing-r\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-jni\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-audio\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\hello-neon\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-codec\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\gles3jni\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\mips\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mipsel-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-codec\README.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86_64\libc.so.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\x86_64\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\Unicode\Collate\keys.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\HelloComputeNDK\res\layout\main.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-n64-linux.xml" />
+     <None Include="Assets\Wispy Sky\ReadMe.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\tests\abcc\AndroidManifest.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\aarch64-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\res\values\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\python2.7\lib2to3\Grammar.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\sources\third_party\googletest\googletest\test\gtest_output_test_golden_lin.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\res\values-v11\styles.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\native-plasma\res\values\strings.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\ppc64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\MoreTeapots\lint.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\mips-o32-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\unicore\Blocks.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\samples\Teapot\lint.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\prebuilt\darwin-x86_64\lib\perl5\5.16.2\unicore\CaseFolding.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86_64-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\i386-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\amd64-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\mips64el-linux-android-4.9\prebuilt\darwin-x86_64\share\gdb\syscalls\arm-linux.xml" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\build\tools\unwanted-symbols\arm64\libgcc.a.variables.txt" />
+     <None Include="Assets\Dungeon Art Pack\Images\android-ndk-r10e\toolchains\x86-4.8\prebuilt\darwin-x86_64\share\gdb\syscalls\sparc64-linux.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

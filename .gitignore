@@ -1,0 +1,17 @@
+
+Assets/Dungeon\ Art\ Pack.meta
+!Assets/Dungeon\ Art\ Pack
+Assets/Dungeon\ Art\ Pack/*
+!Assets/Dungeon\ Art\ Pack/Images
+
+Assets/Wispy\ Sky.meta
+Assets/Wispy\ Sky
+
+Library/
+ProjectSettings/
+Temp/
+
+*.apk
+*.app
+
+obj/
